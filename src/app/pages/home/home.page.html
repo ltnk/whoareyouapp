@@ -1,0 +1,38 @@
+<ion-content>
+  <div class="by-ngocle">
+    <a href="https://www.ngocle.fr"
+      ><img src="../../../assets/information.png" alt=""
+    /></a>
+  </div>
+  <div class="home-page">
+    <!-- WAY logo -->
+    <app-way-logo></app-way-logo>
+
+    <!-- <h1>Who are you ?</h1> -->
+    <p class="catchphrase">Discover which manga character you are !</p>
+
+    <div class="card-container" (click)="goTo('death-note')">
+      <div class="card death-note">
+        <span>DEATH NOTE</span>
+      </div>
+    </div>
+
+    <div class="card-container" (click)="goTo('dragon-ball')">
+      <div class="card dragon">
+        <span>DRAGON BALL Z</span>
+      </div>
+    </div>
+
+    <div class="card-container" (click)="goTo('kimetsu-no-yaiba')">
+      <div class="card kimetsu">
+        <span>KIMETSU NO YAIBA (DEMON SLAYER)</span>
+      </div>
+    </div>
+
+    <div class="card-container" (click)="goTo('one-piece')">
+      <div class="card one-piece">
+        <span>ONE PIECE</span>
+      </div>
+    </div>
+  </div>
+</ion-content>

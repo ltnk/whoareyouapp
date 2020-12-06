@@ -1,0 +1,59 @@
+ion-content {
+  --background: rgb(44, 44, 44);
+  color: white;
+
+  .quiz-page {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    .question {
+      .img-question {
+        margin: 0 auto;
+      }
+      .question-text {
+        font-family: "Shadows Into Light Two", cursive;
+        font-size: 1.4em;
+        margin-top: 0;
+        color: white;
+      }
+    }
+
+    .answer-quiz {
+      font-family: "Quicksand", sans-serif;
+      h2 {
+        font-family: "Shadows Into Light Two", cursive;
+        color: white;
+      }
+      .character-description {
+        color: black;
+        margin: 10px;
+        padding: 5px 50px 5px 50px;
+        background-color: rgba($color: #fdfdfd, $alpha: 0.7);
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    ion-button {
+      transition: 1s ease-out;
+      margin: 10px;
+      font-family: "Quicksand", sans-serif;
+      font-weight: bold;
+    }
+    ion-button:hover {
+      transform: translateY(-0.15rem);
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Button color by adding in html : [color]="'color-button'"*/
+    .mat-color-button {
+      background-color: #fff;
+    }
+
+    .responses {
+      p {
+        font-family: "Quicksand", sans-serif;
+      }
+    }
+  }
+}
